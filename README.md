@@ -11,7 +11,7 @@ As a computer applications student working towards a career in Artificial Intell
 * **Library:** NumPy
 * **Environment:** VS Code
 
-## 📈 Progress Tracker (10-a-Day Streak)
+## 📈 Progress Tracker (A 10-Day Streak)
 I update this list daily as I push new solutions.
 
 - [x] **Day 1:** Questions 1 - 10 (Basics & Array Creation)
@@ -28,6 +28,7 @@ I update this list daily as I push new solutions.
 ## 💡 Key Takeaways
 *(I will update this section with interesting functions or concepts I discover along the way).*
 * **Day 1:** Learned the difference between `np.zeros()` and `np.empty()`.
+* **Day 2:** Discovered that `0.3 == 3 * 0.1` is actually `False` in Python due to floating-point precision! In ML, it is much safer to use `np.isclose()` to compare decimal tensors.
 
 ## 🤝 Acknowledgments
 Questions sourced from the community-maintained [100 numpy exercises](https://github.com/rougier/numpy-100) repository.
