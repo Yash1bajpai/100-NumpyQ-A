@@ -17,7 +17,7 @@ I update this list daily as I push new solutions.
 - [x] **Day 1:** Questions 1 - 10 (Basics & Array Creation)
 - [x] **Day 2:** Questions 11 - 20 (Indexing & Slicing)
 - [x] **Day 3:** Questions 21 - 30 
-- [ ] **Day 4:** Questions 31 - 40
+- [x] **Day 4:** Questions 31 - 40
 - [ ] **Day 5:** Questions 41 - 50
 - [ ] **Day 6:** Questions 51 - 60
 - [ ] **Day 7:** Questions 61 - 70
@@ -30,6 +30,7 @@ I update this list daily as I push new solutions.
 * **Day 1:** Learned the difference between `np.zeros()` and `np.empty()`.
 * **Day 2:** Discovered that `0.3 == 3 * 0.1` is actually `False` in Python due to floating-point precision! In ML, it is much safer to use `np.isclose()` to compare decimal tensors.
 * **Day 3:** Learned how to implement Z-score standardization for model inputs and why pure Python logical operators (like in Z < Z > Z) cause an ambiguous truth value error in NumPy.
+* **Day 4:** Solved Q31-40 with a focus on memory-efficient array operations and temporal data handling"
 
 ## 🤝 Acknowledgments
 Questions sourced from the community-maintained [100 numpy exercises](https://github.com/rougier/numpy-100) repository.
