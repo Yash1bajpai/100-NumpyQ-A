@@ -19,7 +19,7 @@ I update this list daily as I push new solutions.
 - [x] **Day 3:** Questions 21 - 30 (Feature Scaling & Matrix Math)
 - [x] **Day 4:** Questions 31 - 40 (Temporal Data & In-Place Operations)
 - [x] **Day 5:** Questions 41 - 50 (Under the Hood & Hardware Limits)
-- [ ] **Day 6:** Questions 51 - 60
+- [x] **Day 6:** Questions 51 - 60 (Spatial Distances & Memory Views)
 - [ ] **Day 7:** Questions 61 - 70
 - [ ] **Day 8:** Questions 71 - 80
 - [ ] **Day 9:** Questions 81 - 90
@@ -32,6 +32,7 @@ I update this list daily as I push new solutions.
 * **Day 3:** Learned how to implement Z-score standardization for model inputs and why pure Python logical operators (like in Z < Z > Z) cause an ambiguous truth value error in NumPy.
 * **Day 4:** Solved Q31-40 with a focus on memory-efficient array operations and temporal data handling"
 * **Day 5:** Reached the halfway point! Explored how np.add.reduce bypasses function overhead for faster execution, and mapped data type hardware limits (crucial for model quantization).
+* **Day 6:** Mastered using .view() to perform zero-copy, in-place memory casts between floats and integers, a critical technique for edge-device memory optimization.
 
 ## 🤝 Acknowledgments
 Questions sourced from the community-maintained [100 numpy exercises](https://github.com/rougier/numpy-100) repository.
