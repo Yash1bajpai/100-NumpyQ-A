@@ -21,7 +21,7 @@ I update this list daily as I push new solutions.
 - [x] **Day 5:** Questions 41 - 50 (Under the Hood & Hardware Limits)
 - [x] **Day 6:** Questions 51 - 60 (Spatial Distances & Memory Views)
 - [x] **Day 7:** Questions 61 - 70 (Accumulation & Einstein Summation)
-- [ ] **Day 8:** Questions 71 - 80
+- [x] **Day 8:** Questions 71 - 80 (Sliding Windows & Dimensionality)
 - [ ] **Day 9:** Questions 81 - 90
 - [ ] **Day 10:** Questions 91 - 100 (Advanced Mastery)
 
@@ -34,6 +34,7 @@ I update this list daily as I push new solutions.
 * **Day 5:** Reached the halfway point! Explored how np.add.reduce bypasses function overhead for faster execution, and mapped data type hardware limits (crucial for model quantization).
 * **Day 6:** Mastered using .view() to perform zero-copy, in-place memory casts between floats and integers, a critical technique for edge-device memory optimization.
 * **Day 7:** Discovered np.einsum for highly optimized tensor operations, bypassing the massive memory waste of computing full intermediate dot products.
+* **Day 8:** Utilized sliding_window_view for memory-safe rolling operations, a core technique for parsing continuous streams in Natural Language Processing.
 
 ## 🤝 Acknowledgments
 Questions sourced from the community-maintained [100 numpy exercises](https://github.com/rougier/numpy-100) repository.
