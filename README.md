@@ -22,7 +22,7 @@ I update this list daily as I push new solutions.
 - [x] **Day 6:** Questions 51 - 60 (Spatial Distances & Memory Views)
 - [x] **Day 7:** Questions 61 - 70 (Accumulation & Einstein Summation)
 - [x] **Day 8:** Questions 71 - 80 (Sliding Windows & Dimensionality)
-- [ ] **Day 9:** Questions 81 - 90
+- [x] **Day 9:** Questions 81 - 90 (Pooling operations & Top-K Sampling)
 - [ ] **Day 10:** Questions 91 - 100 (Advanced Mastery)
 
 ## 💡 Key Takeaways
@@ -35,6 +35,8 @@ I update this list daily as I push new solutions.
 * **Day 6:** Mastered using .view() to perform zero-copy, in-place memory casts between floats and integers, a critical technique for edge-device memory optimization.
 * **Day 7:** Discovered np.einsum for highly optimized tensor operations, bypassing the massive memory waste of computing full intermediate dot products.
 * **Day 8:** Utilized sliding_window_view for memory-safe rolling operations, a core technique for parsing continuous streams in Natural Language Processing.
+* **Day 8:** Utilized sliding_window_view for memory-safe rolling operations, a core technique for parsing continuous streams in Natural Language Processing.
+* **Day 9:** Implemented np.argpartition for linear-time Top-K extraction, which is the exact mathematical foundation for decoding algorithms in Large Language Models.
 
 ## 🤝 Acknowledgments
 Questions sourced from the community-maintained [100 numpy exercises](https://github.com/rougier/numpy-100) repository.
